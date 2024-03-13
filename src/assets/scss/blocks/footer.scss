@@ -1,0 +1,219 @@
+.footer__wrapper {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.footer__navigation-list {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    padding: 0;
+}
+
+.footer__navigation-item {
+    margin-left: 0;
+    width: max-content;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+
+.footer__navigation-item:nth-child(4) {
+    margin-bottom: 5px;
+}
+
+.footer__adress-text {
+    width: 350px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.footer__contacts-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.footer__contacts-item {
+    justify-content: center;
+}
+
+.footer__contacts-link {
+    margin: 0;
+}
+
+.footer__politic a,
+.footer__politic-text p {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.footer__politic {
+    margin-bottom: 29px;
+}
+
+.footer__politic-text {
+    margin-bottom: 14px;
+}
+
+.footer__contacts-item svg {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__contacts-item a {
+    text-decoration: none;
+}
+
+.footer__social-contacts {
+    display: flex;
+}
+
+.footer__contacts-item {
+    gap: 17px;
+}
+
+.footer__rights-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1F2324;
+    letter-spacing: 1px;
+}
+
+.footer__rights-desktop{
+    display: none;
+}
+
+@media(min-width:$tablet-width) {
+    .footer__wrapper {
+        width: 96%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer__navigation {
+        margin: 0 auto;
+    }
+
+    .footer__navigation-list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__contacts-item a:hover .navigation__social-teleg,
+    .footer__contacts-item a:focus .navigation__social-teleg {
+        fill: #1648A8;
+    }
+
+    .footer__contacts-item a:hover .navigation__social-whatsapp,
+    .footer__contacts-item a:focus .navigation__social-whatsapp {
+        stroke: #1648A8;
+    }
+}
+
+@media(min-width:$desktop-width) {
+    .footer__nav{
+        padding-top: 38px;
+    }
+
+    .footer__wrapper {
+        display: grid;
+        grid-template-columns: 150px auto;
+        gap: 128px;
+        width: 1223px;
+    }
+
+    .footer__logo-link {
+        align-self: start;
+    }
+
+    .footer__navigation {
+        display: grid;
+        grid-template-columns: 780px 168px;
+    }
+
+    .footer__navigation-list {
+        height: 167px;
+        flex-wrap: wrap;
+        margin: 0;
+        flex-direction: column;
+        gap: 27px;
+    }
+
+    .footer__navigation-item {
+        align-self: flex-start;
+    }
+
+    .footer__navigation-item:nth-child(2) {
+        margin-bottom: 100px;
+        text-align: left;
+    }
+
+    .footer__contacts-list {
+        margin: 0;
+        width: 168px;
+        position: relative;
+        align-items: start;
+    }
+
+    .footer__adress-text {
+        width: 168px;
+        text-align: left;
+    }
+
+    .footer__address-br {
+        display: none;
+    }
+
+    .footer__politic-text {
+        position: absolute;
+        left: -780px;
+        top: 100px;
+        width: 169px;
+    }
+
+    .footer__social-contacts,
+    .footer__contacts-item:last-child {
+        position: absolute;
+        left: -1055px;
+        top: 70px;
+        display: flex;
+        gap: 37px;
+    }
+
+    .footer__social-contacts a {
+        text-decoration: none;
+    }
+
+    .footer__contacts-item:last-child {
+        top: 110px;
+    }
+    .footer__rights-desktop{
+        display: block;
+    }
+}

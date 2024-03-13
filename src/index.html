@@ -1,0 +1,370 @@
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo-link" href="#">
+                <picture>
+                    <source srcset="./assets/img/logo-desktop.svg" media="(min-width: 1243px)" type="image/svg+xml" />
+                    <img class="header__logo-img" src="./assets/img/logo-mobile.svg" width="109" height="27"
+                        alt="Логотип интернет-магазина Turbologo" />
+                </picture>
+            </a>
+            <div class="header__adress">
+                <p class="header__adress-text">Гельсингфорсская ул., 4 корпус 1, Санкт-Петербург, 194044</p>
+            </div>
+            <a class="header__cart-link" href="#">
+                <svg class="header__vector-svg" viewBox="0 0 182 51" width="182" height="51"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <use href="./assets/img/main.svg#vector"></use>
+                </svg>
+                <svg class="header__cart-svg" viewBox="0 0 25 24" width="25" height="24"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <use href="./assets/img/main.svg#cart"></use>
+                </svg>
+                <span class="header__cart-count">0</span>
+            </a>
+            <nav class="navigation navigation--closed">
+                <button class="navigation__toggle" type="button">
+                    <span>Меню</span>
+                </button>
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">О компании</a>
+                        <ul class="navigation__submenu">
+                            <li class="navigation__submenu-item">
+                                <a class="navigation__submenu-link" href="#">Отзывы</a>
+                            </li>
+                            <li class="navigation__submenu-item">
+                                <a class="navigation__submenu-link" href="#">Сотрудники</a>
+                            </li>
+                            <li class="navigation__submenu-item">
+                                <a class="navigation__submenu-link" href="#">Сертификаты</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link navigation__item--active" href="#">Каталог</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Услуги</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Оплата / Доставка</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Гарантии</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Опыт</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Новости</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+                <div class="navigation__desktop">
+                    <ul class="navigation__contacts-list">
+                        <li class="navigation__contacts-item">
+                            <a class="navigation__contacts-link" href="tel:+78129049157">
+                                <svg class="navigation__phone" viewBox="0 0 37 37" width="37" height="37"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <use href="./assets/img/main.svg#Phone"></use>
+                                </svg>
+                                +7 (812) 904-91-57</a>
+                        </li>
+                        <li class="navigation__contacts-item navigation__social">
+                            <a href="#">
+                                <svg class="navigation__social-teleg" viewBox="0 0 37 37" width="37" height="37"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <use href="./assets/img/main.svg#telegram"></use>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg class="navigation__social-whatsapp" viewBox="0 0 38 37" width="38" height="37"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <use href="./assets/img/main.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navigation__user-list">
+                        <li class="navigation__user-item">
+                            <a class="navigation__user-link" href="#">
+                                <svg class="navigation__user" viewBox="0 0 31 31" width="31" height="31"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <use href="./assets/img/main.svg#User"></use>
+                                </svg>
+                                Вход</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="visually-hidden">Карточка товара интернет-магазина Turbologo</h1>
+        <section class="cart">
+            <div class="cart__wrapper">
+                <ul class="cart__list">
+                    <li class="cart__list-item"><a href="#">Главная</a></li>
+                    <li class="cart__list-item"><a href="#">Каталог</a></li>
+                    <li class="cart__list-item"><a href="#">ИБП CyberPower BU600E</a></li>
+                </ul>
+                <h2 class="cart__list-name">Каталог</h2>
+                <div class="cart__desktop">
+                    <div class="form form--closed">
+                        <button class="form__button">
+                            Фильтр
+                        </button>
+                        <fieldset class="form__category">
+                            <legend>Категория</legend>
+                            <div><input type="checkbox" id="first" value="interactive">
+                                <label for="first">Интерактивные ИБП</label>
+                            </div>
+                            <div><input type="checkbox" id="second" value="smart">
+                                <label for="second">SMART и онлайн ИБП </label>
+                            </div>
+                            <div><input type="checkbox" id="third" value="Three phase systems">
+                                <label for="third">Трехфазные системы</label>
+                            </div>
+                            <div><input type="checkbox" id="fourth" value="Power distributors">
+                                <label for="fourth">Распределители питания</label>
+                            </div>
+                            <div><input type="checkbox" id="fifth" value="Monitoring and management">
+                                <label for="fifth">Мониторинг и управление</label>
+                            </div>
+                            <div><input type="checkbox" id="sixth" value="UPS for heating systems">
+                                <label for="sixth">ИБП для систем отопления</label>
+                            </div>
+                            <div> <input type="checkbox" id="seventh" value="filters">
+                                <label for="seventh">Сетевые фильтры</label>
+                            </div>
+                            <div><input type="checkbox" id="eighth" value="stabilizer">
+                                <label for="eighth">Стабилизатор напряжения</label>
+                            </div>
+                            <div><input type="checkbox" id="ninth" value="battery ">
+                                <label for="ninth">Батареи</label>
+                            </div>
+                            <div><input type="checkbox" id="tenth" value="programs">
+                                <label for="tenth">Программное обеспечение</label>
+                            </div>
+                            <div><input type="checkbox" id="eleventh" value="Technologies">
+                                <label for="eleventh">Технологии</label>
+                            </div>
+                        </fieldset>
+                        <fieldset class="form__maker">
+                            <legend>Производитель</legend>
+                            <div><input type="checkbox" id="fifth-2" value="Monitoring and management">
+                                <label for="fifth-2">Мониторинг и управление</label>
+                            </div>
+                            <div><input type="checkbox" id="sixth-2" value="UPS for heating systems">
+                                <label for="sixth-2">ИБП для систем отопления</label>
+                            </div>
+                            <div> <input type="checkbox" id="seventh-2" value="filters">
+                                <label for="seventh-2">Сетевые фильтры</label>
+                            </div>
+                            <div><input type="checkbox" id="eighth-2" value="stabilizer">
+                                <label for="eighth-2">Стабилизатор напряжения</label>
+                            </div>
+                            <div><input type="checkbox" id="ninth-2" value="battery ">
+                                <label for="ninth-2">Батареи</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="cart__info">
+                        <h3 class="cart__info-name">ИБП CyberPower BU600E</h3>
+                        <div class="cart__info-desktop-wrapper">
+                            <div class="cart__product-photo-box">
+                                <div class="cart__popular">
+                                    <h4>Хит</h4>
+                                </div>
+                                <div class="cart__new">
+                                    <h4>Новинка</h4>
+                                </div>
+                                <img class="cart__product-photo cart__product-current" src="./assets/img/product.png"
+                                    alt="Фотография ИБП CyberPower BU600E" width="350" height="235">
+                                <img class="cart__product-photo" src="./assets/img/product.png"
+                                    alt="Фотография ИБП CyberPower BU600E" width="350" height="235">
+                                <img class="cart__product-photo" src="./assets/img/product.png"
+                                    alt="Фотография ИБП CyberPower BU600E" width="350" height="235">
+                                <div class="cart__controls-box">
+                                    <button class="cart__control cart__control-current"><img
+                                            src="./assets/img/product.png" alt="Слайд-1" width="41"
+                                            height="35"></button>
+                                    <button class="cart__control"><img src="./assets/img/product.png" alt="Слайд-1"
+                                            width="41" height="35"></button>
+                                    <button class="cart__control"><img src="./assets/img/product.png" alt="Слайд-1"
+                                            width="41" height="35"></button>
+                                </div>
+                            </div>
+                            <div class="cart__product-info-box">
+                                <h5 class="cart__product-art">Артикул: <span>3434е3о</span></h5>
+                                <p class="cart__product-info">Watts <span>360</span></p>
+                                <p class="cart__product-info">Выходное напряжение ( В перем. ) <span>230 ± 10%</span>
+                                </p>
+                                <p class="cart__product-info">Время работы при 90Вт ( мин ) <span>18</span></p>
+                                <p class="cart__product-info">Выходные разъемы <span>Schuko x 3 </span></p>
+                                <div class="cart__product-price">
+                                    <div class="cart__product-price-wrapper">
+                                        <button class="cart__product-decrement">-</button>
+                                        <input class="cart__product-count" type="text" value="1">
+                                        <button class="cart__product-increment">+</button>
+                                        <div class="cart__product-price-box">
+                                            <span class="cart__total-price">23000</span>
+                                            <span>р.</span>
+                                            <div class="cart__price-wrapper">
+                                                <div class="cart__price-box">
+                                                    <span class="cart__price">23000</span>
+                                                    <span>р.</span>
+                                                </div>
+
+                                                <div class="cart__product-discount">-20%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart__buttons-wrapper">
+                                        <button class="cart__add-btn button">В корзину</button>
+                                        <button class="cart__quick-order-btn button">Быстрый заказ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart__tab">
+                            <input checked id="cart__tab-btn-1" name="tab-btn" type="radio" value="">
+                            <label class="cart__tab-btn-1" for="cart__tab-btn-1">Характеристики</label>
+                            <input id="cart__tab-btn-2" name="tab-btn" type="radio" value="">
+                            <label class="cart__tab-btn-2" for="cart__tab-btn-2">Документация</label>
+                            <div class="cart__tab-content" id="content-1">
+                                <table class="cart__table">
+                                    <tbody>
+                                        <tr class="cart__table-row">
+                                            <td>Производитель</td>
+                                            <td>CyberPower</td>
+                                        </tr>
+                                        <tr class="cart__table-row">
+                                            <td>Страна производства</td>
+                                            <td>Тайвань</td>
+                                        </tr>
+                                        <tr class="cart__table-row">
+                                            <td>Мощность выход</td>
+                                            <td>340 W</td>
+                                        </tr>
+                                        <tr class="cart__table-row">
+                                            <td>Напряжение вход/выход</td>
+                                            <td>220 V</td>
+                                        </tr>
+                                        <tr class="cart__table-row">
+                                            <td>Количество фаз вход/выход</td>
+                                            <td>3</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="cart__tab-content" id="content-2">
+                                <a class="cart__tab-content-link" href="#">Документ.pdf</a>
+                                <a class="cart__tab-content-link" href="#">Документ2. docx</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="mailing">
+            <div class="mailing__wrapper">
+                <h3 class="mailing__name">Полезная рассылка</h3>
+                <div class="mailing__input-box">
+                    <label for="email">Почта</label>
+                    <input class="mailing__input" type="email" id="email" placeholder="E-mail...">
+                    <span class="mailing__input-err">Неверно заполнено поле</span>
+                    <div class="mailing__checkbox">
+                        <input class="mailing__checkbox-input" type="checkbox" id="approval">
+                        <label for="approval">Подтверждаю свое согласие на обработку своих персональных данных в
+                            соответствии с Политикой конфиденциальности</label>
+                    </div>
+                </div>
+                <button class="mailing__button button">Отправить</button>
+            </div>
+        </section>
+        <section class="footer__nav">
+            <div class="footer__wrapper">
+                <a class="footer__logo-link" href="#">
+                    <picture>
+                        <img class="header__logo-img" src="./assets/img/logo-desktop.svg" width="132" height="33"
+                            alt="Логотип интернет-магазина Turbologo" />
+                    </picture>
+                </a>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-list">
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Доставка/Оплата</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Каталог</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">О компании</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Услуги</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Гарантии</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Опыт</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Новости</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a class="footer__navigation-link navigation__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="footer__navigation-desktop">
+                        <ul class="footer__contacts-list">
+                            <li class="footer__contacts-item">
+                                <a class="navigation__contacts-link footer__contacts-link" href="tel:+78129049157">
+                                    <svg class="navigation__phone" viewBox="0 0 37 37" width="37" height="37"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <use href="./assets/img/main.svg#Phone"></use>
+                                    </svg>
+                                    +7 (812) 904-91-57</a>
+                            </li>
+                            <li class="footer__contacts-item footer__address">
+                                <p class="footer__adress-text">Гельсингфорсская ул., 4 корпус 1, Санкт-Петербург, 194044
+                                </p>
+                            </li>
+                            <li class="footer__contacts-item footer__politic">
+                                <a href="#">HJYolv@woevg.com</a>
+                            </li>
+                            <li class="footer__contacts-item footer__politic-text">
+                                <p>Политика обработки персональных данных</p>
+                            </li>
+                            <li class="footer__contacts-item footer__social-contacts">
+                                <a href="#">
+                                    <svg class="navigation__social-teleg" viewBox="0 0 37 37" width="37" height="37"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <use href="./assets/img/main.svg#telegram"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="navigation__social-whatsapp" viewBox="0 0 38 37" width="38" height="37"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <use href="./assets/img/main.svg#whatsapp"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__contacts-item footer__rights-text">
+                                <p>
+                                    2021 © Все права<br class="footer__rights-desktop" /> защищены
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </footer>

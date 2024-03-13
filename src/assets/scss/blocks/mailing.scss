@@ -1,0 +1,162 @@
+.mailing {
+    background-color: #1648A8;
+    margin-top: 36px;
+}
+
+.mailing__wrapper {
+    width: 92%;
+    margin: 0 15px 0 13px;
+    padding-top: 43px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.mailing__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
+    margin-bottom: 21px;
+    letter-spacing: 2px;
+}
+
+.mailing__input-box {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 18px;
+}
+
+.mailing__input-box label {
+    margin-bottom: 12px;
+}
+
+.mailing__input {
+    width: 80%;
+    min-height: 45px;
+    background-color: #1648A8;
+    border: 1px solid #E5E5E5;
+    padding-left: 23px;
+    margin-bottom: 25px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.mailing__input::placeholder {
+    color: #DBDBDB;
+}
+
+.mailing__checkbox label {
+    position: relative;
+}
+
+.mailing__checkbox label::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #1648A8;
+    border: 1px solid #477ADA;
+    left: -19px;
+    top: -2px;
+}
+
+.mailing__checkbox-input {
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mailing__checkbox label {
+    color: #477ADA;
+
+}
+
+.mailing__checkbox-input:checked~label::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url('./images/tick.svg.svg');
+    left: -19px;
+    top: -1px;
+}
+
+.mailing__button {
+    width: 201px;
+    height: 47px;
+    background-color: #FFD230;
+    border: none;
+    margin-left: 2px;
+}
+
+.mailing__button:hover,
+.mailing__button:focus {
+    background-color: #F4BF00;
+}
+
+.mailing__input--valid {
+    border-color: #000000;
+    color: #000000;
+}
+
+.mailing__input--invalid {
+    border-color: #E01C1C;
+    color: #E01C1C;
+}
+
+.mailing__input-err {
+    display: none;
+}
+
+.mailing__input-err--invalid {
+    background-color: #FFD4D4;
+    color: #E01C1C;
+    width: 195px;
+    height: 24px;
+    display: block;
+}
+
+@media(min-width:$desktop-width) {
+    .mailing{
+        margin-top: 75px;
+    }
+    .mailing__wrapper {
+        display: flex;
+        width: 1223px;
+        margin: 0 auto;
+        gap: 97px;
+        padding: 0;
+        min-height: 172px;
+    }
+
+    .mailing__name {
+        font-size: 32px;
+        line-height: 39px;
+        min-width: max-content;
+        margin-top: 66px;
+        margin-bottom: 0;
+    }
+
+    .mailing__input-box {
+        width: 284px;
+        margin-top: 26px;
+        margin-bottom: 0;
+    }
+
+    .mailing__input {
+        margin-bottom: 18px;
+    }
+
+    .mailing__button {
+        margin-top: 52px;
+    }
+
+    .mailing__checkbox {
+        z-index: 10;
+        width: 480px;
+    }
+
+}

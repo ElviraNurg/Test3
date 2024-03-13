@@ -1,0 +1,35 @@
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    margin: 0;
+    color: #000000;
+  }
+a:hover,
+a:focus{
+    color: #1f2324;
+}
+@media(min-width:768px) {
+    .body {
+        min-width: 768px;
+
+    }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
